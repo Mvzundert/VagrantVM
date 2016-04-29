@@ -73,4 +73,8 @@ Vagrant.configure(2) do |config|
   #   sudo apt-get install -y apache2
   # SHELL
   config.vm.provision :shell, path: "provisionscripts/bootstrap.sh"
+
+  # Uncomment this line to provision drush (for drupal development)
+  # needs to have bootstrap.sh to have been run first!
+  #config.vm.provision :shell, path: "provisionscripts/drush.sh"
 end
