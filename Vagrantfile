@@ -78,4 +78,5 @@ Vagrant.configure(2) do |config|
   # needs to have bootstrap.sh to have been run first!
   #config.vm.provision :shell, path: "provisionscripts/drush.sh"
   #config.vm.provision :shell, path: "provisionscripts/node.sh"
+  #config.vm.provision :shell, path: "provisionscripts/beanstalkd.sh"
 end
