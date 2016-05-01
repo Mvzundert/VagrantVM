@@ -78,7 +78,8 @@ $INSTALL mercurial
 ##@@EDITOR
 echo "Installing Editors"
 $INSTALL vim
-$INSTALL mc
+#$INSTALL mc
+#$INSTALL nano
 
 ##@@COMPOSERvagrant
 echo "Installing Composer"
