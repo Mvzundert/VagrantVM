@@ -29,4 +29,3 @@ Uncomment these in the vargrant file to activate.<br>
 - Drush (for drupal development)
 - Node (grunt, gulp,bower)
 - Beanstalkd (http://kr.github.io/beanstalkd/)
--
